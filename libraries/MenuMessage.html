@@ -102,7 +102,7 @@
 							<ul>
 									<li>
 
-										<span class="realm client"></span><a href="#impulse.MenuMessage.Add">impulse.MenuMessage.Add(uid, title, message[, col[, url[, urlText[, expiry]]]])</a>
+										<span class="realm client"></span><a href="#impulse.MenuMessage.Add">impulse.MenuMessage.Add(uid, title, message, col, url, urlText, expiry, close)</a>
 									</li>
 									<li>
 
@@ -127,7 +127,7 @@
 						<section class="method">
 							<header>
 								<a class="anchor" id="impulse.MenuMessage.Add">
-									<h1><span class="realm client"></span>impulse.MenuMessage.Add(uid, title, message[, col[, url[, urlText[, expiry]]]])</h1>
+									<h1><span class="realm client"></span>impulse.MenuMessage.Add(uid, title, message, col, url, urlText, expiry, close)</h1>
 								</a>
 
 
@@ -228,6 +228,19 @@
 
 												<p> UNIX time until when this message will automatically expire</p>
 											</li>
+									</ul>
+									
+									<ul>
+
+										<li>
+											<span class="tag parameter">expiry</span>
+
+												<span class="tag"><span class="type">int</span></span>
+
+												<span class="tag default">optional</span>
+
+											<p> UNIX time until when this message will automatically expire</p>
+										</li>
 									</ul>
 
 
